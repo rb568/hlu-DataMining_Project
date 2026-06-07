@@ -1,0 +1,10 @@
+date 날짜
+comment_count 그날 수집된 총 댓글 수
+pos_count 긍정으로 분류된 댓글 수
+neg_count 부정으로 분류된 댓글 수
+neu_count 중립으로 분류된 댓글 수
+mean_conf 모델의 평균 확신도 (0~1)
+pos_ratio 긍정 비율 (pos/total)
+neg_ratio 부정 비율 (neg/total)
+net_sentiment 순 감성 점수 (pos-neg)/total, -1~+1
+
