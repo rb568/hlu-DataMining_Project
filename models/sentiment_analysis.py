@@ -39,7 +39,7 @@ def load_sentiment_model():
         "text-classification",
         model="snunlp/KR-FinBert-SC",
         tokenizer="snunlp/KR-FinBert-SC",
-        device=-1,          # CPU 사용 (-1); GPU 있으면 0
+        device=0,          # CPU 사용 (-1); GPU 있으면 0
         truncation=True,
         max_length=128,
     )
